@@ -27,7 +27,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   entryComponents: [
     TabComponent,
     NoTabComponent
-  ]
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
