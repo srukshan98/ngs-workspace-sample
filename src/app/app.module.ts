@@ -24,6 +24,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MaterialModule,
   ],
   providers: [],
+  entryComponents: [
+    TabComponent,
+    NoTabComponent
+  ]
   bootstrap: [AppComponent]
 })
 export class AppModule { }
